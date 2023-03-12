@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    font-family: Arial, serif;
+    background-color: #e8eaed;
+}
+
+.navbar{
+    display: flex;
+    background-color: #4f76a1;
+    padding: 5px;
+    align-items: center;
+}
+.logo a{
+    margin: 0 0 0 170px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+}
+
+.searchNavbar input{
+
+    border: none;
+    height: 28px;
+    width: 160px;
+    margin: 0 0 0 120px;
+    padding-left: 30px;
+    border-radius: 15px;
+    background: transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTYiIGhlaWdodD0iMTYiCnZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiM3Nzc3NzciIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoNS4xMiw1LjEyKSI+PHBhdGggZD0iTTIxLDNjLTkuMzc4OTEsMCAtMTcsNy42MjEwOSAtMTcsMTdjMCw5LjM3ODkxIDcuNjIxMDksMTcgMTcsMTdjMy43MTA5NCwwIDcuMTQwNjMsLTEuMTk1MzEgOS45Mzc1LC0zLjIxODc1bDEzLjE1NjI1LDEzLjEyNWwyLjgxMjUsLTIuODEyNWwtMTMsLTEzLjAzMTI1YzIuNTU0NjksLTIuOTc2NTYgNC4wOTM3NSwtNi44Mzk4NCA0LjA5Mzc1LC0xMS4wNjI1YzAsLTkuMzc4OTEgLTcuNjIxMDksLTE3IC0xNywtMTd6TTIxLDVjOC4yOTY4OCwwIDE1LDYuNzAzMTMgMTUsMTVjMCw4LjI5Njg4IC02LjcwMzEyLDE1IC0xNSwxNWMtOC4yOTY4NywwIC0xNSwtNi43MDMxMiAtMTUsLTE1YzAsLTguMjk2ODcgNi43MDMxMywtMTUgMTUsLTE1eiI+PC9wYXRoPjwvZz48L2c+Cjwvc3ZnPg==") no-repeat 13px center;
+    background-position: 5px;
+    background-color: #384464;
+    
+}
+.searchNavbar input:focus{
+    outline: none;
+}
+
+
+
+.content{
+    padding: 25px 200px 0 200px;
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+}
+
+.navigation{
+    width: 17%;
+}
+
+.navigation a{
+    display: block;
+    text-decoration: none;
+    color: grey;
+}
+
+.navigation-a{
+    margin-top: 20px;
+}
+
+
+.center{
+    width: 28%;
+}
+
+.redaktirovat{
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+}
+.redact-photo{
+
+}
+
+.redact-photo img{
+    width: 100%;
+}
+.redact-button{
+    margin-top: 10px;
+}
+.redact-button button{
+    width: 100%;
+    padding: 6px;
+    border: none;
+    color: grey;
+}
+
+
+
+
+.friends{
+    margin-top: 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.friends-number{
+
+}
+.friends-number a{
+    text-decoration: none;
+    color: grey;
+    size: 14px;
+}
+
+.sami-friends{
+    margin-top: 20px;
+}
+
+.samii-friends-row-1{
+    display: flex;
+    justify-content: space-around;
+}
+.samii-friends-row-1 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.samii-friends-row-1 div{
+    width: 20%;
+    text-align: center;
+}
+.samii-friends-row-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.samii-friends-row-2 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.samii-friends-row-2 div{
+    width: 20%;
+    text-align: center;
+}
+.sami-friends img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+.right{
+    width: 52%;
+    height: 800px;
+
+}
+.info{
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+}
+.info-navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid darkgrey 1px;
+
+
+}
+.info-navbar-name{
+    margin-bottom: 20px;
+}
+.info-navbar-name h3{
+    margin: 0;
+    color: dimgrey;
+    font-weight: lighter;
+}
+.info-navbar-name h4{
+    margin: 0;
+    color: grey;
+    font-weight: lighter;
+}
+.info-navbar-online{
+
+}
+.info-navbar-online h5{
+    margin: 0;
+    color: darkgrey;
+    font-weight: lighter;
+}
+
+
+.info-main{
+    display: flex;
+    border-bottom: darkgrey solid 1px;
+}
+.info-main-left{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.info-main-left a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.a-prosto{
+    margin-top: 8px;
+}
+.info-main-right a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.info-main-right{
+    display: block;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+
+
+.info-dop{
+    display: flex;
+    margin-top: 20px;
+}
+.info-dop div{
+    text-align: center;
+}
+.info-dop a{
+    text-decoration: none;
+
+
+}
+.a-big{
+    font-size: 18px;
+    color: black;
+}
+.a-mini{
+    font-size: 12px;
+    color: grey;
+}
+
+
+
+.photos{
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+.photos a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 13px;
+}
+.photo-4{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.photo-4 div{
+    width: 24%;
+}
+.photos img{
+    width: 100%;
+}
+
+
+
+.news{
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.news-navbar{
+    display: flex;
+    align-items: center;
+}
+.news-photo{
+    width: 10%;
+}
+.news-photo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.news-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: space-around;
+}
+.news-name a{
+    text-decoration: none;
+    margin: 0;
+    font-size: 14px;
+}
+.a-blue{
+    color: darkblue;
+}
+.a-grey{
+    color: darkgrey;
+}
+
+.news-text p{
+    color: grey;
+    font-size: 14px;
+}
+
+
+
+
+
+
